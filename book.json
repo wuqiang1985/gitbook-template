@@ -1,0 +1,51 @@
+{
+  "description": "JOOX Web 项目",
+  "author": "JOOX Web Team",
+  "title": "JOOX Web 项目",
+  "language": "zh-hans",
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "all": false
+    }
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
+    "anchors",
+    "page-footer-ex",
+    "expandable-chapters-small",
+    "splitter",
+    "anchor-navigation-ex",
+    "favicon",
+    "copy-code-button",
+    "insert-logo",
+    "toggle-chapters"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    },
+    "page-footer-ex": {
+      "copyright": "©2019 JOOX Web Team. All Rights Reserved",
+      "markdown": true,
+      "update_label": "updated：",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "insert-logo": {
+      "url": "http://knowledge.joox.ibg.com/web/project/assets/img/logo.jpg"
+    },
+    "favicon": {
+      "shortcut": "/assets/img/favicon.ico",
+      "bookmark": "/assets/img/favicon.ico"
+    }
+  },
+  "styles": {
+    "website": "assets/style/website.css"
+  },
+  "expandable-chapters-small": {}
+}

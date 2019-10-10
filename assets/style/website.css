@@ -1,0 +1,17 @@
+.gitbook-link {
+  display: none !important;
+}
+
+.book-logo img {
+  width: 100%;
+  height: 130px;
+}
+
+.book .book-summary .book-logo {
+  padding: 5px;
+}
+
+/* hide related menu */
+.summary > li.chapter:nth-last-child(3) {
+  display: none !important;
+}
