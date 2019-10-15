@@ -1,7 +1,7 @@
 {
-  "description": "JOOX Web 项目",
-  "author": "JOOX Web Team",
-  "title": "JOOX Web 项目",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "title": "{{description}}",
   "language": "zh-hans",
   "links": {
     "gitbook": false,
@@ -31,13 +31,13 @@
       "showLevel": false
     },
     "page-footer-ex": {
-      "copyright": "©2019 JOOX Web Team. All Rights Reserved",
+      "copyright": "©{{year}} {{author}}. All Rights Reserved",
       "markdown": true,
       "update_label": "updated：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     },
     "insert-logo": {
-      "url": "http://knowledge.joox.ibg.com/web/project/assets/img/logo.jpg"
+      "url": "/assets/img/logo.png"
     },
     "favicon": {
       "shortcut": "/assets/img/favicon.ico",
